@@ -1,0 +1,18 @@
+{
+	"model_name" : "CNN",
+	"no_models" : 100,
+	"type" : "mnist",
+	"CLASS_NUM" : 62,
+	"clip":20,
+	"global_epochs" : 400,
+	"local_epochs" : 2,
+	"k" : 10,
+	"batch_size" : 50,
+	"non_iid": "shap",
+	"local_lr" : 0.1,
+	"local_momentum" : 0,
+	"redistribution" : "n",
+	"alpha":0.05,
+	"server_eval_size":5,
+	"target_label" : 5
+}
