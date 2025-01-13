@@ -6,7 +6,6 @@ import torch
 import random
 import json
 
-# 获取数据集
 def get_dataset(dir, name, roll, conf, user_id):
 
     if torch.cuda.is_available():
